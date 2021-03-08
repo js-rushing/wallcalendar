@@ -1,0 +1,54 @@
+#calendar {
+  margin: auto;
+  margin-top: 10vh;
+  width: 47.25rem;
+  background-color: sandybrown;
+  border-radius: 0.3125rem;
+  overflow: hidden;
+}
+
+#cal-header {
+  background-color: lightpink;
+  height: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#month {
+  font-size: 3rem;
+}
+
+#year {
+  font-size: 1.5rem;
+}
+
+#cal-body {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: salmon;
+}
+
+#cal-day-strip {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border: solid 1px;
+}
+
+.day-name-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  border: solid 1px;
+}
+
+.day-num {
+  padding: 0.125rem;
+}
+
+.day-cell {
+  height: 6.75rem;
+  width: 6.75rem;
+}

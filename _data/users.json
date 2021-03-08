@@ -1,0 +1,27 @@
+[
+    {
+        "name": "John Doe",
+        "email": "jdoe@gmail.com",
+        "password": "123456"
+    },
+    {
+        "name": "Lisa Martin",
+        "email": "lmartin@gmail.com",
+        "password": "123456"
+    },
+    {
+        "name": "Doug Kurz",
+        "email": "dkurz@gmail.com",
+        "password": "123456"
+    },
+    {
+        "name": "Marilyn Connor",
+        "email": "mconnor@gmail.com",
+        "password": "123456"
+    },
+    {
+        "name": "Snork Borkson",
+        "email": "sborkson@gmail.com",
+        "password": "123456"
+    }
+]
